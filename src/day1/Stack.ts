@@ -41,8 +41,8 @@ export default class Stack<T> {
     }
 
     /**
-     * @description Removes the first item on top of stack
-     * @returns The first item on top of stack
+     * @description Removes the first item on top of the stack
+     * @returns The first item on top of the stack
      */
     pop(): T | undefined {
         // stay at zero if the stack is empty or reduce by 1
